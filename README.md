@@ -2,11 +2,21 @@
 
 This repo is for my conky configuration.
 
-It uses the Conky_Draw .lua script https://github.com/fisadev/conky-draw
+It uses the conky_draw .lua script https://github.com/fisadev/conky-draw
 
 
 Example:
 
 ![alt tag](https://github.com/SanderSalamander/salamander-conky-config/blob/master/example.png)
 
-Replace the conky_draw_config.lua from the Conky_Draw repository with the one found in my repository. Alternatively, you could just copy and paste.
+# Installation
+
+If you do not have conky installed on your system, make sure you do. Otherwise this won't work
+
+Download the conky_draw.lua and conky_draw_config.lua from the repository linked to above.
+
+Place the .conkyrc in your home directory. The conky_draw.lua and conky_draw_config.lua files should also be placed there.
+Replace the blank Conky_draw_config.lua with the one you downloaded from this repository.
+
+Open a terminal and type: conky
+Enjoy
