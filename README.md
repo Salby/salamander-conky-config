@@ -1,4 +1,4 @@
-# salamander-overlord
+# salamander-conky-config
 
 This repo is for my conky configuration.
 
