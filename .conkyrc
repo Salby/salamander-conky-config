@@ -51,14 +51,14 @@ ${color1}os:     ${color0}${alignr}${sysname} ${kernel}
 ${hr 1}
 ${color2}${alignr}CPU
 
-${color1}Intel Core M3-6Y30 2.2Ghz
+${color1}Intel <insert cpu here>
 ${color1}freq:   ${color0}${alignr}${freq}Mhz ${alignr}${exec sensors | grep ^temp1 | tail -n 1 |awk '{print $2}'}
 ${color0}core 1:
 ${color0}core 2:
 ${hr 1}
 ${color2}${alignr}GPU
 
-${color1}Intel HD Graphics 516
+${color1}Intel <insert gpu here>
 #GPU load: ${execi 1 aticonfig --adapter=0 --od-getclocks | tail -n1 | gawk '{printf $4}'}
 ${color0}${hr 1}
 ${color2}${alignr}Memory
@@ -75,10 +75,4 @@ ${color2}${alignr}Storage
 
 ${color1}SSD ${alignr}${color0}${fs_used /home}/${fs_size /home}
 
-${if_mounted /run/media/kaikidan/Storage} ${color1}[HDD] /Storage: ${alignr}${color0}${fs_free /run/media/kaikidan/Storage}/${fs_size /run/media/kaikidan/Storage}
-${fs_bar /run/media/kaikidan/Storage}
-${endif}
-${if_mounted /run/media/kaikidan/SAMSUNG} ${color1}[HDD] /External: ${alignr}${color0}${fs_free /run/media/kaikidan/SAMSUNG}/${fs_size /run/media/kaikidan/SAMSUNG}
-${fs_bar /run/media/kaikidan/SAMSUNG}
-${endif}
 ${hr 1}
