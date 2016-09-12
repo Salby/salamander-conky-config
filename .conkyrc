@@ -58,7 +58,7 @@ ${color0}core 2:
 ${hr 1}
 ${color2}${alignr}GPU
 
-${color1}Intel HD Graphics 515
+${color1}Intel HD Graphics 516
 #GPU load: ${execi 1 aticonfig --adapter=0 --od-getclocks | tail -n1 | gawk '{printf $4}'}
 ${color0}${hr 1}
 ${color2}${alignr}Memory
