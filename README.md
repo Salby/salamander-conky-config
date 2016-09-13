@@ -16,7 +16,6 @@ If you do not have conky installed on your system, make sure you do. Otherwise t
 Download the conky_draw.lua and conky_draw_config.lua from the repository linked to above.
 
 Place the .conkyrc in your home directory. The conky_draw.lua and conky_draw_config.lua files should also be placed there.
-Replace the blank Conky_draw_config.lua with the one you downloaded from this repository.
+Replace the blank Conky_draw_config.lua with the one you downloaded from my repository.
 
 Open a terminal and type: conky
-Enjoy
